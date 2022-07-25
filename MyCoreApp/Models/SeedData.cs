@@ -22,23 +22,26 @@ namespace MyCoreApp.Models
                         Title = "Утомленные солнцем",
                         ReleaseDate = DateTime.Parse("1986-07-07"),
                         Genre = "Исторический",
-                        Price = 655.08M
+                        Price = 655.08M,
+                        Rating = "+18"
                     },
                     new Movie
                     {
                         Title = "Охотники за привидениями",
                         ReleaseDate = DateTime.Parse("1984-03-13"),
                         Genre = "Комедия",
-                        Price = 1220.99M
+                        Price = 1220.99M,
+                        Rating = "+16"
                     },
                     new Movie
                     {
                         Title = "Охотники за привидениями 2",
                         ReleaseDate = DateTime.Parse("1986-04-13"),
                         Genre = "Комедия",
-                        Price = 1330.99M
+                        Price = 1330.99M,
+                        Rating = "+16"
                     }
-                    );
+                    ) ;
                 context.SaveChanges();
             }
 
